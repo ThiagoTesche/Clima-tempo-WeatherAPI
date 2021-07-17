@@ -1,0 +1,61 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/21/12/44/kochelsee-1406788_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.cont{
+    border: 1px solid black;
+    width: 40%;
+    min-width: 300px;
+    height: 100%;
+    min-height: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 1px black;
+}
+
+.temper{
+    display: flex;
+    margin-left: 42%;
+}
+
+.icon{
+    width: 100%;
+}
+
+.icon img{
+    margin-left: 45%;
+    width: 60px;
+    height: 60px;
+}
+
+h2, h4{
+    text-align: center;
+}
+
+.desc::first-letter{
+    text-transform: capitalize;
+} 
+
+.data{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+span{
+    background-color: green;
+    border-radius: 35%;
+    padding: 3px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=button]{
+    cursor: pointer;
+}
